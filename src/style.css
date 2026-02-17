@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  height: 100vh;
+  overflow: hidden;
+}
+section:first-child{
+  background-color: rgb(123, 199, 88);
+  padding: 5px;
+  /* height: 100vh; */
+}
+section:first-child >h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 2px;
+}
+main{
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+.card{
+  border: 1px solid ;
+  border-radius: 15px;
+  /* box-shadow: 0 50px 50px -12px rgb(57, 33, 195); */
+  padding: 1rem;
+  width: 20rem;
+  background-color: rgb(5, 5, 110);
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card>h1{
+  text-align: center;
+  padding: 2px;
+}
+section{
+  padding: 2px;
+}
+section >h2{
+  text-decoration: underline;
+}
+ul{
+  padding: 2px 18px;
+}
+.green{
+  color: rgb(3, 255, 3);
+  
+}
+.yellow{
+  color: yellow;
+}
+.red{
+  color: red;
+}
+
+.project > p,span{
+  padding-left: 10px;
+}
