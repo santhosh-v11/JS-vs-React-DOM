@@ -62,3 +62,18 @@ ul{
 .project > p,span{
   padding-left: 10px;
 }
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 5px; */
+}
+nav a{
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+
+
+}
