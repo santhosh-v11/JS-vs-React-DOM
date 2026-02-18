@@ -1,0 +1,71 @@
+body{
+  margin: 0 auto;
+  padding: 2rem;
+  display: grid;
+  place-items: center;
+  background: #0f172a;
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section:first-child{
+  background-color: rgb(123, 199, 88);
+  padding: 5px;
+  /* height: 100vh; */
+}
+section:first-child >h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 2px;
+}
+main{
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+}
+.card{
+  border: 1px solid ;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  width: 20rem;
+  background-color:#020617;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card>h1{
+  text-align: center;
+  padding: 2px;
+}
+section{
+  padding: 2px;
+}
+section >h2{
+  text-decoration: underline;
+}
+ul{
+  padding: 2px 18px;
+}
+.green{
+  color:green;
+  font-weight:500;
+  
+}
+.yellow{
+  color: yellow;
+  font-weight:500;
+
+}
+.red{
+  color: red;
+}
+
+.project > p,span{
+  padding-left: 10px;
+}
